@@ -1,30 +1,25 @@
- /* binary.c -- prints integer in binary form */
+ /* swap2.c -- researching swap1.c */
  #include <stdio.h>
- void to_binary(unsigned long n);
+ void interchange(int u, int v); /* declare function */
  
  int main(void)
  {
-    unsigned long number;
-    printf("Enter an integer (q to quit):\n");
-    while (scanf("%lu", &number) == 1)
-    {
-        printf("Binary equivalent: ");
-        to_binary(number);
-        putchar('\n');
-        printf("Enter an integer (q to quit):\n");
-    }
-    printf("Done.\n");
+    int x = 5, y = 10;
+ 
+    printf("Originally x = %d and y = %d.\n", x , y);
+    x = interchange(x, y);
+    printf("Now x = %d and y = %d.\n", x=, y);
  
     return 0;
  }
  
- void to_binary(unsigned long n) /* recursive function */
+ void interchange(int u, int v) /* define function */
  {
-    int r;
-    r = n % 2;
-    if (n >= 2)
-        to_binary(n / 2);
-    putchar(r == 0 ? '0' : '1');
- 
-    return;
+    int temp;
+    
+    printf("Originally u = %d and v = %d.\n", u , v);
+    temp = u;
+    u = v;
+    v = temp;
+
  }
