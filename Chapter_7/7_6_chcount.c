@@ -1,4 +1,4 @@
-// chcount.c -- use the logical AND operator
+ // chcount.c -- use the logical AND operator
  #include <stdio.h>
  #define PERIOD '.'
  int main(void)

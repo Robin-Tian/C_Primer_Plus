@@ -16,5 +16,5 @@
         printf("Enter next value (q to quit):\n");
     }
  
- return 0;
+    return 0;
  }

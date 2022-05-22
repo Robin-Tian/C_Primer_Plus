@@ -31,7 +31,7 @@
         }                       // end of switch
     }                           // while loop end
  
-    printf("number of vowels: A E I O U\n");
+    printf("number of vowels:    A    E    I    O    U\n");
     printf("                  %4d %4d %4d %4d %4d\n",
             a_ct, e_ct, i_ct, o_ct, u_ct);
     
